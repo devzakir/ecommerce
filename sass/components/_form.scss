@@ -1,0 +1,22 @@
+.button {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: $white;
+  background-color: $color;
+  padding: 13px 40px;
+  letter-spacing: 1px;
+  &:hover {
+    background-color: $hover;
+  }
+}
+
+.heading {
+  // border: 1px solid #000;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  h2{
+    font-size: 30px;
+  }
+}

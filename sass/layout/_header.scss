@@ -1,0 +1,48 @@
+header {
+  background-color: $color;
+  padding: 10px 0;
+  ul.menu-bar {
+    display: flex;
+    align-items: center;
+    li a{
+      padding: 7px 15px;
+      color: white;
+      font-weight: 600;
+      &:hover{
+        color: $hover;
+      }
+    }
+  }
+  .logo {
+    max-height: 50px;
+    max-width: 40px;
+  }
+  .menu {
+
+  }
+  .hotlink {
+    a {
+      color: white;
+      border: 1px solid rgba($white, $alpha: .5);
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      text-align: center;
+      margin-left: 5px;
+      &:hover{
+        background-color: $white;
+        color: $color;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
